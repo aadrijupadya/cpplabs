@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Askisoft Inc - The Best in Business Consulting</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style2.css">
+
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="tab.js"></script>
+<script src="form.js"></script>
+<script src="animate.js"></script>
+
+
+<!-- Recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    
+        <!--Navbar-->
+      <nav class="navbar sticky-top navbar-expand-lg fixed-top navbar-light">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="./index.html">askisoft</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <!-- <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="first-item" href="./index.html">About Us</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="./services.html">
+              Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+
+          </ul>
+          <!-- Links -->
+
+          <!-- <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </form> -->
+        </div>
+        <!-- Collapsible content -->
+
+      </nav>
+      <!--/.Navbar-->
+
+
+<!-- Page Content -->
+
+<div class="about-image" id="services">
+  <img src="purple-background.jpg" width="100%" height="300px"> </img>
+  <div class="about-overlay">Services</div>
+</div>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'advisory')" id="defaultOpen">Advisory Services</button>
+  <button class="tablinks" onclick="openCity(event, 'consulting')">Technology Consulting</button>
+  <button class="tablinks" onclick="openCity(event, 'tech')">Technology</button>
+</div>
+
+<!-- Tab content -->
+<div id="advisory" class="tabcontent">
+  <p>
+    <ul class="tech-list">
+    Advisory:
+    <li>Target State Architecture</li>
+    <li>Strategy Roadmaps</li>
+    <li>Go-to market solutions</li>
+    <li>Product Strategy</li>
+    <li>Data Monetization</li>
+    <li>Competitor Analysis</li>
+    <li>Pricing</li>
+  </ul>
+</p>
+</div>
+
+<div id="consulting" class="tabcontent">
+  <p>
+    <ul class="tech-list">
+      Technology Consulting:
+      <li>Artificial Intelligence</li>
+      <li>Machine Learning</li>
+      <li>Deep Learning</li>
+      <li>RPA</li>
+      <li>Big Data & Analytics</li>
+      <li>Cloud Migration</li>
+      <li>Digital Transformation</li>
+      <li>Mobile</li>
+      <li>Program Management</li>
+      <li>Project Management</li>
+      <li>Software consulting</li>
+      <li>Software development</li>
+      <li>DevOps</li>
+      <li>Application maintenance and support</li>
+      <li>System analysis and design</li>
+      <li>Network maintenance and support</li>
+      <li>E-business</li>
+      <li>ERP</li>
+      <li>CRM</li>
+      <li>Web solutions</li>
+      <li>Package implementation</li>Package implementation
+      <li>Offshore development and support</li>
+    </ul>
+  </p>
+</div>
+
+<div id="tech" class="tabcontent">
+  <p>We have experienced professionals with the state of
+    the art skills in all of today's leading technologies, including:
+    Artificial Intelligence, Machine Learning, Deep Learning,
+    Big Data and Analytics, Cloud and Digital
+    transformation, Mobile, E-business, Object Oriented
+    Technologies, Network Management, Data Warehousing,
+    Distributed Computing, Client/Server
+    Computing, Systems Integration/Administration,
+    Configuration Management</p>
+
+    <p>
+      Using:
+
+  Python, R, Java, J2EE, C++, C, Perl,
+  iOS, Android
+  NT, Linux, Unix, MVS
+  Java, Corba, RMI, EJB, HTML, Javascript, VBscript, CGI,
+  IIS, ASP, Netscape Webserver, Oracle Webserver,
+  Coldfusion, Weblogic, Brio.
+  Hadoop, NoSQL
+  Oracle, Sybase, INFORMIX, SQL server, ODBC, SQL,
+  PL/SQL.
+  Developer 2000, Designer 2000,
+  Visual C++, Visual Basic, Powerbuilder, Active X.
+  TCP/IP, SNMP, SMTP.
+    </p>
+  </div>
+
+<!--  -->
+
+<script>
+  document.getElementById("defaultOpen").click();
+  // Recaptcha:
+  function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+</script>
+
+    </body>
+
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row d-flex justify-content-center">
+
+      <!-- Grid column -->
+      <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
+
+        <!-- Content
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content.</p> -->
+
+      <!-- </div> -->
+      <!-- Grid column -->
+
+      <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
+
+      <!-- Grid column -->
+      <!-- <div class="col-md-3 mb-md-0 mb-3"> -->
+
+        <!-- Links -->
+        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+        <!-- <ul class="list-unstyled text-uppercase" style="text-decoration: underline;">
+          <li>
+            <a href="aboutUs.html">About Us</a>
+          </li>
+          <li>
+            <a href="#!">Contact Us</a>
+          </li>
+          <li>
+            <a href="#!">Careers</a>
+          </li>
+          <li>
+            <a href="#!">Locations</a>
+          </li>
+        </ul> -->
+
+      <!-- </div> -->
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <!-- <div class="col-md-3 mb-md-0 mb-3"> -->
+
+        <!-- Links -->
+        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+        <!-- <ul class="list-unstyled">
+          <li>
+            <a href="#!">Privacy Statement</a>
+          </li>
+          <li>
+            <a href="#!">Terms & Conditions</a>
+          </li>
+          <li>
+            <a href="#!">Cookie Policy</a>
+          </li>
+          <li>
+            <a href="#!">Accessibility Statement</a>
+          </li>
+        </ul>
+
+      </div> -->
+      <!-- Grid column -->
+
+    <!-- </div> -->
+    <!-- Grid row -->
+
+  <!-- </div> -->
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">©2024 Askisoft Inc. All Rights Reserved. Askisoft Inc. is an Equal Opportunity Employer, M/F/Disability/Veterans
+    <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</html>
